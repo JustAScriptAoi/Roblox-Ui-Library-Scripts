@@ -51,8 +51,8 @@ local ZonyzxUI = {
 		Version = "1.1.0"
 	},
 	Save = {
-		UISize = {380, 250},
-		TabSize = 95,
+		UISize = {420, 280},
+		TabSize = 105,
 		Theme = "Darker"
 	},
 	Settings = {},
@@ -1429,14 +1429,11 @@ function ZonyzxUI:MakeWindow(Configs)
 		Size = UDim2.fromOffset(UISizeX, UISizeY),
 		Position = UDim2.new(0.5, -UISizeX/2, 0.5, -UISizeY/2),
 		BackgroundTransparency = 0.18,
-		Image = "rbxassetid://73812177684316",
 		ScaleType = Enum.ScaleType.Crop,
 		ClipsDescendants = true,
 		Name = "Hub"
 	}), "Main")
-	Make("Gradient", MainFrame, {
-		Rotation = 45
-	})MakeDrag(MainFrame)
+	MakeDrag(MainFrame)
 	
 	local MainCorner = Make("Corner", MainFrame)
 	
