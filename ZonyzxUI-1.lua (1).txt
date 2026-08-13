@@ -10,7 +10,7 @@ local PlayerMouse = Player:GetMouse()
 
 local ZonyzxUI = {
 	Themes = {
-		Darker = {
+		Origins = {
 			["Color Hub 1"] = ColorSequence.new({
 				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)),
 				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(70, 70, 70)),
@@ -51,9 +51,9 @@ local ZonyzxUI = {
 		Version = "1.1.0"
 	},
 	Save = {
-		UISize = {420, 280},
+		UISize = {360, 230},
 		TabSize = 105,
-		Theme = "Darker"
+		Theme = "Origins"
 	},
 	Settings = {},
 	Connection = {},
